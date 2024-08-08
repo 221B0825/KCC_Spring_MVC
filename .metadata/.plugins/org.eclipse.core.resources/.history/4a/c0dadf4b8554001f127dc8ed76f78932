@@ -1,0 +1,6 @@
+package org.zerock.domain;
+
+//VO 객체 vs DTO
+public class SampleDTO {
+
+}
