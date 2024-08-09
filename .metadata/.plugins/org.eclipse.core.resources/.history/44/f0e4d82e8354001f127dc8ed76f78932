@@ -1,6 +1,0 @@
-package org.zerock.controller;
-
-@Controller
-public class SampleController {
-
-}
