@@ -4,7 +4,7 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="org.zerock.mapper.BoardMapper">
 
-<!-- 
+
 	<sql id="criteria">
 		<trim prefix="(" suffix=") AND " prefixOverrides="OR">
 			<foreach item='type' collection="typeArr">
@@ -23,7 +23,7 @@
 				</trim>
 			</foreach>
 		</trim>
-	</sql> -->
+	</sql> 
 
 
 	<!-- CDATA는 SQL의 용도로만 사용함  -->
@@ -75,8 +75,18 @@
 	<select id="getListWithPaging" resultType="org.zerock.domain.BoardVO"> 
 		<![CDATA[ select bno, title, content, writer, regdate, updatedate from ( 
 		select /*+INDEX_DESC(tbl_board pk_board) */ rownum rn, bno, title, content, 
-		writer, regdate, updatedate from tbl_board where rownum <= #{pageNum} * #{amount} 
-		) where rn > (#{pageNum} -1) * #{amount} ]]> </select>
+		writer, regdate, updatedate
+		from tbl_board
+		where]]>
+		<include refid="criteria"></include>
+		
+		<![CDATA[
+		rownum <= #{pageNum} * #{amount} 
+		) where rn > (#{pageNum} -1) * #{amount}
+		]]>
+		
+		
+		</select>
 
 <!--
 	<select id="getListWithPaging"
