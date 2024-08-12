@@ -1,10 +1,14 @@
 INDEX VERSION 1.131
+C:\Users\KOSA\workspace\springMVC-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4079695850.index
+\ex04\src\main\java
 D:\DouZone\workspace\spring_work\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2185909724.index
 \ex03\src\main\java
 C:\Users\KOSA\workspace\springMVC-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3012140731.index
 \ex01\src\main\java
 C:\Users\KOSA\workspace\springMVC-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2185909724.index
 \ex03\src\main\java
+C:\Users\KOSA\workspace\springMVC-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2263995694.index
+\ex04\src\main\java
 D:\Kosta-KDigital\workspace\spring_work\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2300720504.index
 \aa\src\main\java
 D:\DouZone\workspace\spring_work\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3340328501.index
@@ -41,3 +45,5 @@ D:\DouZone\workspace\spring_work\.metadata\.plugins\org.eclipse.jst.jsp.core\jsp
 \ex01\src\main\java
 D:\DouZone\workspace\spring_work\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3012140731.index
 \ex01\src\main\java
+C:\Users\KOSA\workspace\springMVC-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2021107339.index
+\ex04\src\main\java
