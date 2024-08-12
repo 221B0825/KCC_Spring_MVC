@@ -231,6 +231,7 @@
 										function(e) {
 
 											e.preventDefault();
+											actionForm.find('[name=bno]').remove();
 											actionForm
 													.append("<input type='hidden' name='bno' value='"
 															+ $(this).attr(
