@@ -1,4 +1,4 @@
-# kosa_spring_mvc
+# kosa-spring-mvc
 
 Using Spring MVC in 2024  
 📌: KOSA 전자정부 표준 프레임워크 기반 공공프로젝트 개발 전문가 양성과정 - Spring MVC 실습 코드 모음
